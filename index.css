@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(0, 0, 15);
+    color: white;
+}
+
+header{
+    background: linear-gradient(rgb(0, 174, 255),blue);
+    margin: 1%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#logo{
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+#main-text{
+    color: black;
+    float: left;
+    font-family: monospace;
+    margin-left: 10%;
+}
+
+#main-text-2{
+    color: black;
+    float: right;
+    font-family: monospace;
+    margin-right: 10%;
+}
+
+.formulario{
+    margin: 15%;
+    text-transform: capitalize;
+    font-family: monospace;
+}
+
+label input{
+    background-color: rgb(0, 0, 15);
+    border: none;
+    border-bottom: 1px solid grey;
+    color: white;
+    margin: 5px;
+}
