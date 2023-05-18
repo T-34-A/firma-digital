@@ -1,99 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=h1, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=h1, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <header>
-        <h2 id="main-text">Cooperativa La Costa</h2>
-        <h2 id="main-text-2">Formularios De Contratos</h2>
-    
-        <center>
-            <img src="imagenes/logomenu.png" id="logo">
-        </center>
-       </header>
+      <h2 id="main-text">Cooperativa La Costa</h2>
+      <h2 id="main-text-2">Formularios De Contratos</h2>
 
-       <div class="formulario">
-        En la ciudad de <label for="ciudad">
-            <input type="text" name="ciudad" id="ciudad" required>
-        </label>, a los <label for="dias">
-            <input type="text" name="dias" id="dias" required> 
-        </label> días del mes de <label for="mes">
-            <input type="text" name="mes" id="mes" required>
-        </label> de 20 <label for="año">
-            <input type="number" name="año" id="año" required>
-        </label>, entre
-         <label for="nombre">
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
-         </label>
-         <label for="apellido">
-            <input type="text" name="apellido" id="aellido" placeholder="Apellido" required>
-         </label>
-         <label for="tipo">
-            <input type="text" name="tipo" id="tipo" placeholder="Tipo De Documento" required>
-         </label>
-         <label for="dni">
-            <input type="number" name="dni" id="dni" placeholder="DNI" required>
-         </label>
-         <label for="domicilio">
-            <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" required>
-         </label>, en adelante EL LOCADOR y 
+      <center>
+        <img src="imagenes/logomenu.png" id="logo" />
+      </center>
+    </header>
 
-         <label for="nombre-2">
-            <input type="text" name="nombre-2" id="nombre-2" placeholder="Nombre" required>
-         </label>
-         <label for="apellido-2">
-            <input type="text" name="apellido-2" id="aellido-2" placeholder="Apellido" required>
-         </label>
-         <label for="tipo-2">
-            <input type="text" name="tipo-2" id="tipo-2" placeholder="Tipo De Documento" required>
-         </label>
-         <label for="dni-2">
-            <input type="number" name="dni-2" id="dni-2" placeholder="DNI" required>
-         </label>
-         <label for="domicilio-2">
-            <input type="text" name="domicilio-2" id="domicilio-2" placeholder="Domicilio" required>
-         </label>
-         
-        , en adelante EL LOCATARIO, se conviene celebrar este "contrato de locación de 
-        servicios" sujeto a las siguientes condiciones:
-        PRIMERA: OBJETO. El locador prestará al locatario los servicios de 
-        <label for="detallar">
-            <input type="text" name="detallar" id="detallar" placeholder="(Detallar)" required>
-        </label>.
-        <br><br>
-        El locatario exhibe en este acto copia del título/certificado (o certificado) habilitante expedido por _____ y copia de 
-        su inscripción en la D.G.I. como trabajador autónomo bajo el C.U.I.T. Nº _______.
-        SEGUNDA: COMPROMISO. Durante toda la vigencia de este contrato, el locador se compromete a no contratar 
-        sus servicios con personas físicas o jurídicas con las que se relacione en razón de esta locación de servicios
-        TERCERA: PRECIO. El locatario abonará al locador la suma de $ ____ (pesos _____), por adelantado y en forma 
-        mensual del 1 al ___ de cada mes. La falta de pago en tiempo y forma convenida, devengará en favor del locador 
-        un interés ___% del monto adeudado, sin perjuicio de la facultad de éste de rescindir el contrato y exigir 
-        judicialmente la reparación por daños y perjuicios que corresponda.
-        CUARTA: VIGENCIA. Este contrato tendrá una vigencia de ________.
-        QUINTA: RESCISION. Cualquiera de las partes podrá en cualquier tiempo y por cualquier motivo declarar 
-        rescindido este contrato de locación de servicios. En tal caso, deberá comunicarlo a la otra con una anticipación 
-        no menor de _____ y en forma fehaciente. Caso contario se hará pasible de una multa de $_____ (pesos ______), 
-        en favor de la contraria, la que será exigible sin necesidad de interpelación alguna y por vía ejecutiva.
-        SEXTA: ENFERMEDAD. El locador deberá comunicar en forma fehaciente y con certificado médico que lo 
-        acredite, cualquier enfermedad que impida la realización de los servicios para los que fue contratado. En ese caso, 
-        el locatario abonará al locador su retribución mensual hasta un máximo de _______. Pasado ese plazo de gracia, 
-        sin que el locatario se haya reintegrado a prestar su servicios en forma debida, el contrato quedará rescindido de 
-        pleno derecho.
-        SEPTIMA: PROHIBICION DE CESION. Queda prohibida la cesión en todo o en parte de este contrato de locación 
-        de servicios. El locador deberá cumplir en forma personal y de acuerdo con las instrucciones que el locatario 
-        impartirá el servicio para el que fue contratado.
-        OCTAVA: JURISDICCION. DOMICILIOS. Para todos los efectos judiciales y extrajudiciales derivados del presente 
-        boleto, el locador constituye domicilio en _______, y el locatario en _________. Ambas partes se someten a la 
-        competencia ordinaria de los Tribunales _____ para todos los efectos derivados de este contrato y renuncian a 
-        cualquier otro fuero o jurisdicción que pudiera corresponderles.
-        En prueba de conformidad se firman dos ejemplares de un mismo tenor
-       </div>
+  
 
+               <div class="formulario">
+                  En la ciudad de
+                  <label for="ciudad">
+                  <input type="text" name="ciudad" id="ciudad" required /> </label
+                  >, a los
+                  <label for="dias">
+                  <input type="text" name="dias" id="dias" required />
+                  </label>
+                  días del mes de
+                  <label for="mes">
+                  <input type="text" name="mes" id="mes" required />
+                  </label>
+                  de 20
+                  <label for="año">
+                  <input type="text" name="año" id="año" required /> </label
+                  >, entre
+                  <label for="nombre">
+                  <input
+                     type="text"
+                     name="nombre"
+                     id="nombre"
+                     placeholder="Nombre"
+                     required
+                  />
+                  </label>
+                  <label for="apellido">
+                  <input
+                     type="text"
+                     name="apellido"
+                     id="aellido"
+                     placeholder="Apellido"
+                     required
+                  />
+                  </label>
+                  <label for="tipo">
+                  <input
+                     type="text"
+                     name="tipo"
+                     id="tipo"
+                     placeholder="Tipo De Documento"
+                     required
+                  />
+                  </label>
+                  <label for="dni">
+                  <input type="text" name="dni" id="dni" placeholder="DNI" required />
+                  </label>
+                  <label for="domicilio">
+                  <input
+                     type="text"
+                     name="domicilio"
+                     id="domicilio"
+                     placeholder="Domicilio"
+                     required
+                  /> </label
+                  >, en adelante EL LOCADOR y
+            
+                  <label for="nombre-2">
+                  <input
+                     type="text"
+                     name="nombre-2"
+                     id="nombre-2"
+                     placeholder="Nombre"
+                     required
+                  />
+                  </label>
+                  <label for="apellido-2">
+                  <input
+                     type="text"
+                     name="apellido-2"
+                     id="aellido-2"
+                     placeholder="Apellido"
+                     required
+                  />
+                  </label>
+                  <label for="tipo-2">
+                  <input
+                     type="text"
+                     name="tipo-2"
+                     id="tipo-2"
+                     placeholder="Tipo De Documento"
+                     required
+                  />
+                  </label>
+                  <label for="dni-2">
+                  <input type="text" name="dni-2" id="dni-2" placeholder="DNI" required />
+                  </label>
+                  <label for="domicilio-2">
+                  <input
+                     type="text"
+                     name="domicilio-2"
+                     id="domicilio-2"
+                     placeholder="Domicilio"
+                     required
+                  />
+                  </label>
+            
+                  , en adelante EL LOCATARIO, se conviene celebrar este "contrato de
+                  locación de servicios" sujeto a las siguientes condiciones:
+                  <br />
+                  PRIMERA: OBJETO. El locador prestará al locatario los servicios de
+                  <label for="detallar">
+                  <input
+                     type="text"
+                     name="detallar"
+                     id="detallar"
+                     placeholder="(Detallar)"
+                     required
+                  /> </label
+                  >. <br /><br />
+                  El locatario exhibe en este acto copia del título/certificado (o
+                  certificado) habilitante expedido por
+                  <label for="expedido">
+                  <input type="text" id="expedido" name="expedido" required />
+                  </label>
+                  y copia de su inscripción en la D.G.I. como trabajador autónomo bajo el
+                  C.U.I.T. Nº
+                  <label for="cuit">
+                  <input type="text" name="cuit" id="cuit" required /> </label
+                  >.
+                  <br />
+                  SEGUNDA: COMPROMISO. Durante toda la vigencia de este contrato, el locador
+                  se compromete a no contratar sus servicios con personas físicas o
+                  jurídicas con las que se relacione en razón de esta locación de servicios
+                  <br />
+                  TERCERA: PRECIO. El locatario abonará al locador la suma de $
+                  <label for="dolares">
+                  <input type="text" name="dolares" id="dolares" required /> </label
+                  >(pesos
+                  <label for="peesos">
+                  <input type="text" name="pesos" id="pesos" required /> </label
+                  >), por adelantado y en forma mensual del 1 al
+                  <label for="mensual">
+                  <input type="text" name="mensual" id="mensual" required />
+                  </label>
+                  de cada mes. La falta de pago en tiempo y forma convenida, devengará en
+                  favor del locador un interés<label for="interes">
+                  <input type="text" name="interes" id="interers" required /> </label
+                  >% del monto adeudado, sin perjuicio de la facultad de éste de rescindir
+                  el contrato y exigir judicialmente la reparación por daños y perjuicios
+                  que corresponda.
+                  <br />
+                  CUARTA: VIGENCIA. Este contrato tendrá una vigencia de
+                  <label for="vigencia">
+                  <input type="text" name="vigencia" id="vigencia" required /> </label
+                  >.
+                  <br />
+                  QUINTA: RESCISION. Cualquiera de las partes podrá en cualquier tiempo y
+                  por cualquier motivo declarar rescindido este contrato de locación de
+                  servicios. En tal caso, deberá comunicarlo a la otra con una anticipación
+                  no menor de
+                  <label for="anticipación-menor">
+                  <input
+                     type="text"
+                     name="anticipación-menor"
+                     id="anticipación-menor"
+                     required
+                  />
+                  </label>
+                  y en forma fehaciente. Caso contario se hará pasible de una multa de $
+                  <label for="multa">
+                  <input type="text" name="multa" id="multa" required />
+                  </label>
+                  (pesos
+                  <label for="pesos-2">
+                  <input type="text" name="pesos-2" required /> </label
+                  >), en favor de la contraria, la que será exigible sin necesidad de
+                  interpelación alguna y por vía ejecutiva.
+                  <br />
+                  SEXTA: ENFERMEDAD. El locador deberá comunicar en forma fehaciente y con
+                  certificado médico que lo acredite, cualquier enfermedad que impida la
+                  realización de los servicios para los que fue contratado. En ese caso, el
+                  locatario abonará al locador su retribución mensual hasta un máximo de
+                  <label for="mensual-maximo">
+                  <input
+                     type="text"
+                     name="mensual-maximo"
+                     id="mensual-maximo"
+                     required
+                  /> </label
+                  >. Pasado ese plazo de gracia, sin que el locatario se haya reintegrado a
+                  prestar su servicios en forma debida, el contrato quedará rescindido de
+                  pleno derecho.
+                  <br />
+                  SEPTIMA: PROHIBICION DE CESION. Queda prohibida la cesión en todo o en
+                  parte de este contrato de locación de servicios. El locador deberá cumplir
+                  en forma personal y de acuerdo con las instrucciones que el locatario
+                  impartirá el servicio para el que fue contratado.
+                  <br />
+                  OCTAVA: JURISDICCION. DOMICILIOS. Para todos los efectos judiciales y
+                  extrajudiciales derivados del presente boleto, el locador constituye
+                  domicilio en
+                  <label for="domicilio">
+                  <input
+                     type="text"
+                     name="domicilio-3"
+                     id="domicilio-3"
+                     required
+                  /> </label
+                  >, y el locatario en
+                  <label for="locatario-2">
+                  <input
+                     type="text"
+                     name="locatario-2"
+                     id="locatario-2"
+                     required
+                  /> </label
+                  >. Ambas partes se someten a la competencia ordinaria de los Tribunales
+                  <label for="tribunales">
+                  <input type="text" name="tribunales" id="tribunales" required />
+                  </label>
+                  para todos los efectos derivados de este contrato y renuncian a cualquier
+                  otro fuero o jurisdicción que pudiera corresponderles. En prueba de
+                  conformidad se firman dos ejemplares de un mismo tenor
+                  <br />
+                  <br />
+                  <br />
+                  <br>
+                  <br><br><br><br>
+                  <center>
+                  <label for="submit">
+                     <button type="submit" id="listo">Guardar Documento</button>
+                  </label>
+                  </center>
+
+               </div>
+            
+
+   
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
